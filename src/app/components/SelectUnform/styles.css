@@ -1,0 +1,43 @@
+.label-float{
+  position: relative;
+  padding-top: 13px;
+}
+
+.label-float select{
+  border: 0;
+  border-bottom: 2px solid lightgrey;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  border-radius: 0;
+  width: 100%;
+  margin-bottom: 7px;  
+}
+
+.label-float select:focus{
+  border-bottom: 2px solid #26A69A;
+}
+
+.label-float select::placeholder{
+  color:transparent;
+}
+
+.label-float label{
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  margin-top: 15px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+.label-float select:focus + label,
+.label-float select:not(:placeholder-shown) + label{
+  font-size: 13px;
+  margin-top: -6px;
+  color: #26A69A;
+}

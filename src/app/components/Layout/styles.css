@@ -1,0 +1,27 @@
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, .2);
+  margin: 16px;
+}
+
+.position-margin {
+  margin-bottom: 5px;
+}
+
+.icon-foto-profile {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  border: 1px dashed #1890ff;
+}
+
+.ant-avatar {
+  width: 72px !important;
+  height: 72px !important;
+  border-radius: 50px !important;
+  margin: 0 auto !important;
+  margin-top: 0.4px !important;
+  margin-left: 0.6px !important;
+}

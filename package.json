@@ -1,0 +1,59 @@
+{
+  "name": "wim-administration",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/helper-regex": "^7.10.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@rocketseat/unform": "^1.5.1",
+    "antd": "^3.11.2",
+    "axios": "^0.19.0",
+    "big": "^0.5.2",
+    "chart.js": "^2.7.3",
+    "font-awesome": "^4.7.0",
+    "global": "^4.4.0",
+    "heroku": "^7.42.5",
+    "heroku-cli": "^7.0.9",
+    "history": "^4.9.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.2.0",
+    "react": "^16.6.3",
+    "react-chartjs-2": "^2.7.4",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.6.3",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^4.0.1",
+    "react-select": "^3.0.8",
+    "react-toastify": "^5.3.2",
+    "reactotron-react-js": "^3.3.2",
+    "reactotron-redux": "^3.1.1",
+    "reactotron-redux-saga": "^4.2.2",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5",
+    "socket.io-client": "^2.3.0",
+    "sweetalert2": "^7.33.1",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {}
+}

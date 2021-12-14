@@ -1,0 +1,39 @@
+.containerModal{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:1rem;
+}
+
+.labelModal{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.inputModal{
+  font-size: 16px;
+}
+
+.textAreaModal{
+  width: 85.5%;
+  margin: 0 auto;
+}
+
+#btnModal{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 2rem !important;
+  margin: 0 auto;
+}
+
+#iconModalRead{
+  font-size: 1.2rem;
+  display: flex;
+  margin-top: 2px;
+}
+
+.titleSuggestions{
+  font-size: 1.25rem;
+  margin-left: 5px;
+}

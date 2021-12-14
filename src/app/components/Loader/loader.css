@@ -1,0 +1,82 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1050;
+  background: rgba(0, 0, 0, 0.3411764706);
+  box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.0392156863); }
+
+.loader .isloading {
+  width: 150px;
+  border-radius: 10px;
+  background: #fff;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.51);
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.loader .isloading img {
+  width: 35%; }
+
+.toast-xray-larder {
+  height: 75px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  background: #fff;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  animation-name: transition;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+@keyframes transition {
+  0% {
+    right: -222px;
+  }
+  25% {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+.pointerLoad1 {
+  transform-style: preserve-3d;
+  animation-name: flip-load;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.pointerLoad2 {
+  transform-style: preserve-3d;
+  animation-name: flip-load;
+  animation-duration: 2.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.pointerLoad3 {
+  transform-style: preserve-3d;
+  animation-name: flip-load;
+  animation-duration: 2.4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
